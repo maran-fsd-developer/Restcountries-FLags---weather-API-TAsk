@@ -8,7 +8,7 @@ function element(tag, classname, id, text) {
 }
 
 let container = element("div", "container", "", "");
-const h1 = element("h1", "text-center", "title", "Countries Flags & Weather ");
+const h1 = element("h1", "text-center", "title", "Countries Weather Details");
 const row = element("div", "row", "", "");
 
 const response = fetch("https://restcountries.com/v3.1/all");
